@@ -112,3 +112,59 @@ header div#chamada{
     transform: translate(-50%,-50%);
 }
 
+/*------------------------*/
+/*SECAO - DOMINGO PERFEITO*/
+/*------------------------*/
+section#domingo-perfeito{
+    width: 100%;
+    padding: 40px 0 80px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita{
+    position: relative;
+    width: 15%;
+    background-color: #078C31;
+}
+
+div#domingo-perfeito-centro{
+    width: 65%;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div#pontos-chaves-mestre{
+    width: 100%;
+    margin-top: 40px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    background-color: turquoise;
+}
+
+div.pontos-chaves{
+    text-align: center;
+    width: 25%;
+}
+
+section#domingo-perfeito div.pontos-chaves ion-icon{
+    width: 75px;
+    height: 75px;
+    color: #F03733;
+    
+}
+
+
+
+
+
+
